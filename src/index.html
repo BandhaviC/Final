@@ -1,13 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Final</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <app-root>Final</app-root>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="Final Exam" class="bg-info text-center text-danger">Final Exam</h1>
+      <h2 id="Find all even numbers between two numbers" class="bg-info text-center text-light">Find all even numbers between two numbers </h2>
+   
+    
+    <div class="text-success text-left">
+      Number 1:  <input type="text" id="numberInput" /> Number 2:<input type="text" id="numberInput1" />
+    </div>
+
+    <button type="button"id="submit" value="Submit" class="btn btn-primary-warning">Submit</button>
+
+    <div id="even"></div>
+
+      <div class="text-success text-left">
+        <div class="form-group ">
+        <label for="result">Calculation Result:</label>
+        <input type="text" class="form-control" id="result">
+      </div>
+
+    <script src="app.js"></script>
+    
+  </body>
 </html>
