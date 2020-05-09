@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+#Final {
+  border: teal 1px solid;
+}
+#row1 {
+  height: 30px;
+}
+#row2 {
+  height: 50px;
+}
+#button {
+  border: 1px solid;
+}
